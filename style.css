@@ -1,0 +1,24 @@
+body {
+    margin: auto;
+    width: 75%;
+    font-size: 30px;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#countdown {
+    display: none;
+}
+
+#main {
+    display: none;
+}
