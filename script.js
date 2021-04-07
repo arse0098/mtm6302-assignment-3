@@ -74,7 +74,6 @@ function setDays() {
 
 $month.addEventListener("change", setDays)
 $year.addEventListener("change", setDays)
-setDays();
 
 function submitCountdown() {
     localStorage.setItem("title", $title.value);
@@ -140,3 +139,4 @@ if (localStorage.length !== 0) {
 } else {
     $main.style.display = "block";
 }
+setDays();
